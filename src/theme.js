@@ -1,13 +1,15 @@
 export const dark ={
     colors:{
         titleColor : '#121212',
-        bgColor: '#b8b8b8',
+        bgColor: '#dcdde1',
+        navColor: '#dcdde1'
     }
 }
 
 export const light ={
     colors:{
-        titleColor : '#b8b8b8',
-        bgColor: '#121212',
+        titleColor : 'white',
+        bgColor: '#2f3640',
+        navColor: '#353b48'
     }
 }
