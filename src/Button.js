@@ -16,7 +16,7 @@ function Button({title, click}) {
 
     return (
       <>
-        <ButtonColor><h1>Light</h1></ButtonColor>
+        <ButtonColor><h1>LIGHT</h1></ButtonColor>
           <S.Button 
             onClick={click}
             checked={state.checkedA}
@@ -26,7 +26,7 @@ function Button({title, click}) {
           >
               <h1>{title}</h1>
           </S.Button>
-        <ButtonColor><h1>Dark</h1></ButtonColor>
+        <ButtonColor><h1>DARK</h1></ButtonColor>
       </>
     );
 };
